@@ -6,6 +6,20 @@ namespace SpelMain
 {
     class StartGame
     {
-        ChooseMission();
+        public static void Run()
+        {
+            GreetPlayer();
+            ChooseMission();
+        }
+
+        private static void GreetPlayer()
+        {
+            Console.WriteLine("Hello there " + CreatePlayer.NameOfPlayer + "!. That looks like a nice " + CreatePlayer.Weapon + " you got there");
+        }
+
+        public static void ChooseMission()
+        {
+
+        }
     }
 }

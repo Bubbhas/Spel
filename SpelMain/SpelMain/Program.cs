@@ -8,9 +8,10 @@ namespace SpelMain
         {
             CreatePlayer.Run();
 
-            
-            StartGame();
-            EndGame();
+            StartGame.Run();
+
+            EndGame.ThankPlayerForPlaying();
+           
 
            
 
