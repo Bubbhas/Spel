@@ -4,19 +4,21 @@ using System.Text;
 
 namespace SpelMain
 {
-    class CreatePlayer
+    static public class CreatePlayer
     {
-        public string NameOfPlayer { get; set; }
-        public void Run()
+        static public string NameOfPlayer { get; set; }
+        public static void CreatePlayez(string a)
         {
-            CreateName();
+            NameOfPlayer = a;
         }
-        public string CreateName()
+        public static void Run()
         {
             Console.Write("Enter your name: ");
             string PlayerChooseName = Console.ReadLine();
-            NameOfPlayer = PlayerChooseName;
-            Console.WriteLine($"Greetings {NameOfPlayer}");
+            CreatePlayez(PlayerChooseName);
+
+            
         }
+        
     }
 }
