@@ -8,7 +8,6 @@ namespace SpelMain
         {
             CreatePlayer();
             StartGame();
-            ChooseMission();
             EndGame();
         }
     }
