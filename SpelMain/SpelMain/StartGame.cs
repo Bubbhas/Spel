@@ -6,5 +6,6 @@ namespace SpelMain
 {
     class StartGame
     {
+        ChooseMission();
     }
 }
