@@ -4,14 +4,15 @@ using System.Text;
 
 namespace SpelMain
 {
-    class CreatePlayer
+    public class CreatePlayer
     {
         public string NameOfPlayer { get; set; }
-        public void Run()
+
+        public void StartPlayerCreation()
         {
             CreateName();
         }
-        public string CreateName()
+        public void CreateName()
         {
             Console.Write("Enter your name: ");
             string PlayerChooseName = Console.ReadLine();

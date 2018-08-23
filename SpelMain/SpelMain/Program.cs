@@ -6,10 +6,10 @@ namespace SpelMain
     {
         static void Main(string[] args)
         {
-            CreatePlayer();
-            StartGame();
-            ChooseMission();
-            EndGame();
+            new CreatePlayer().StartPlayerCreation();
+           // StartGame();
+            //ChooseMission();
+            //EndGame();
         }
     }
 }
