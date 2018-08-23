@@ -6,7 +6,10 @@ namespace SpelMain
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CreatePlayer();
+            StartGame();
+            ChooseMission();
+            EndGame();
         }
     }
 }
